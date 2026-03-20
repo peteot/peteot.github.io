@@ -1,5 +1,7 @@
 ---
-layout: page
-title: About
+layout: page_with_sidebar
+title: About Pete
 ---
-# About us page
+
+{% include about_content.html %}
+

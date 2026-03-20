@@ -1,11 +1,4 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: page
-title: Home
+layout: latest_post
+title: Latest
 ---
-
-# Hi
-
-This is a normal page.

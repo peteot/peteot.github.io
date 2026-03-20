@@ -1,0 +1,442 @@
+Configuration file: /Users/peterotoole/Library/CloudStorage/OneDrive-mTuitive,Inc/Code/petesite/peteot.github.io/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /Users/peterotoole/Library/CloudStorage/OneDrive-mTuitive,Inc/Code/petesite/peteot.github.io
+       Destination: /Users/peterotoole/Library/CloudStorage/OneDrive-mTuitive,Inc/Code/petesite/peteot.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+                    done in 0.115 seconds.
+ Auto-regeneration: enabled for '/Users/peterotoole/Library/CloudStorage/OneDrive-mTuitive,Inc/Code/petesite/peteot.github.io'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+      Regenerating: 1 file(s) changed at 2026-02-04 17:04:47
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102934 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:04:55
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.116851 seconds.
+                    
+[2026-02-04 17:04:58] ERROR '/favicon.ico' not found.
+      Regenerating: 1 file(s) changed at 2026-02-04 17:05:06
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.093294 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:05:23
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.099653 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:05:49
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.124048 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:05:58
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.099679 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:06:15
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.10399 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:06:21
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.101618 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:06:32
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.159085 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:06:41
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.105974 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:06:59
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.08313 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:07:30
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.103766 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:07:32
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102266 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:07:35
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.076034 seconds.
+                    
+[2026-02-04 17:08:17] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:10 
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
+[2026-02-04 17:08:17] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:12 
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
+      Regenerating: 1 file(s) changed at 2026-02-04 17:08:52
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.096177 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:09:27
+                    assets/profile pic.jpg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.112199 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:09:38
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.112421 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:09:51
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.097823 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:10:01
+                    assets/profile pic.jpg
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077013 seconds.
+                    
+[2026-02-04 17:10:06] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:12 
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
+      Regenerating: 1 file(s) changed at 2026-02-04 17:10:21
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.092167 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:10:35
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.091752 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:10:41
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102447 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:11:05
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.09694 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:11:06
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.093978 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:11:13
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.100386 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:11:19
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.096019 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:11:31
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102466 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:11:34
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.084812 seconds.
+                    
+[2026-02-04 17:11:37] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:12 
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
+      Regenerating: 1 file(s) changed at 2026-02-04 17:11:43
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.096841 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:11:47
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.096663 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:11:47
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.089646 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:11:50
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102965 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:11:54
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.10176 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:11:56
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102937 seconds.
+                    
+[2026-02-04 17:12:28] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:12 
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
+      Regenerating: 1 file(s) changed at 2026-02-04 17:12:34
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.122305 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:12:51
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.104144 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:13:05
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.130339 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:13:08
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.142017 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:13:14
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090725 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:13:22
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.088302 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:13:27
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.1003 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:13:37
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.09109 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:13:42
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.072808 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:13:47
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090305 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:13:51
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.109958 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:15:08
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.132812 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:15:09
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.087986 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:15:25
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.086106 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:15:25
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.093857 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:15:26
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.077209 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:15:31
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102047 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:15:32
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.074049 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:15:34
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.220027 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:15:35
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.102661 seconds.
+                    
+[2026-02-04 17:16:02] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:10 
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
+      Regenerating: 1 file(s) changed at 2026-02-04 17:16:46
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.132019 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:17:28
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.097396 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:17:29
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.080968 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:17:29
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.093389 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:17:30
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090643 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:18:06
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.100677 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:18:06
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.068008 seconds.
+                    
+      Regenerating: 2 file(s) changed at 2026-02-04 17:18:45
+                    jekyll-output.log
+                    about.md
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.113841 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:18:45
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.069382 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:18:46
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.082073 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:18:47
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.258147 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:19:53
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.087915 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:01
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.16401 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:06
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085189 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:06
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.076462 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:08
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.083904 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:14
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.097576 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:15
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.090592 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:38
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.085987 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:38
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.087312 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:38
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.072764 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:20:40
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.089458 seconds.
+                    
+[2026-02-04 17:21:14] ERROR Errno::ECONNRESET: Connection reset by peer @ io_fillbuf - fd:10 
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'IO#eof?'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/httpserver.rb:82:in 'WEBrick::HTTPServer#run'
+	/Users/peterotoole/.gem/ruby/3.4.1/gems/webrick-1.9.1/lib/webrick/server.rb:310:in 'block in WEBrick::GenericServer#start_thread'
+      Regenerating: 1 file(s) changed at 2026-02-04 17:22:33
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.091471 seconds.
+                    
+      Regenerating: 1 file(s) changed at 2026-02-04 17:22:34
+                    jekyll-output.log
+       Jekyll Feed: Generating feed for posts
+                    ...done in 0.072531 seconds.
+                    

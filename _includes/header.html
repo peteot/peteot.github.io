@@ -28,3 +28,6 @@
     {%- endif -%}
   </div>
 </header>
+
+{%- include sidebar.html -%}
+{%- if page.layout == "post" or page.layout == "latest_post" or page.layout == "page_with_sidebar" -%}{%- include recent_posts_sidebar.html -%}{%- endif -%}

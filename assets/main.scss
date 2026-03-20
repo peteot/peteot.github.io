@@ -1,7 +1,265 @@
 ---
 ---
+
+// Typography
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$code-font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace;
+
+// Spacing
+$spacing-unit:     30px;
+
+// Layout
+$content-width:    800px;
+$on-palm:          600px;
+$on-laptop:        800px;
+
+// Colors
+$brand-color:           #4A2E73;
+$brand-color-light:     lighten($brand-color, 40%);
+$brand-color-dark:      darken($brand-color, 25%);
+
+$site-title-color:      #4A2E73;
+
+$text-color:            #1F2328;
+$background-color:      #FCFCFD;
+$code-background-color: #eef;
+
+$link-base-color:       #1E4F9A;
+$link-visited-color:    darken($link-base-color, 15%);
+$link-hover-color:      $text-color;
+
+$border-color-01:       $brand-color-light;
+$border-color-02:       lighten($brand-color, 40%);
+$border-color-03:       $brand-color-dark;
+
+$table-text-color:      lighten($text-color, 18%);
+$table-zebra-color:     lighten($brand-color, 46%);
+$table-header-bg-color: lighten($brand-color, 43%);
+$table-header-border:   lighten($brand-color, 37%);
+$table-border-color:    $border-color-01;
+
 @import "minima";
 
-p {
-    color: purple;
+// ===== Custom Styling =====
+
+//$left-sidebar-background: #53bd7c;
+$left-sidebar-background: #A9C3B380;
+$right-sidebar-background: #4A2E73;
+
+$left-sidebar-heading-color: #16201C;
+$left-sidebar-body-color: #1F2B26;
+$left-sidebar-link-color: blue;
+$left-sidebar-link-hover-color: #14386D;
+// $left-sidebar-heading-color: #FFFFFF;
+// $left-sidebar-body-color: #EFEAFF;
+// $left-sidebar-link-color: #4805e3;
+// $left-sidebar-link-hover-color: #FFFFFF;
+
+$right-sidebar-heading-color: #FFFFFF;
+$right-sidebar-body-color: #EFEAFF;
+$right-sidebar-link-color: #CDB8FF;
+$right-sidebar-link-hover-color: #FFFFFF;
+
+.site-header  {
+    border-top-color: $site-title-color;
 }
+.site-title {
+  color: $site-title-color;
+  font-weight: 800;
+
+  &:visited,
+  &:hover {
+    color: $site-title-color;
+  }
+}
+
+// Sidebar styling
+.site-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 290px;
+  max-height: 100vh;
+
+  background-color: $right-sidebar-background;
+  border-left: 1px solid #e0e0e0;
+  z-index: 9;
+  overflow-y: auto;
+  font-size: 0.95em;
+}
+
+.sidebar-profile-image {
+  width: 200%;
+  height: auto;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  opacity: 0.85;
+  filter: brightness(1.05) contrast(0.95);
+  transition: opacity 0.3s ease;
+  
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+
+.sidebar-content h3 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.sidebar-content p {
+  line-height: 1.6;
+  margin: 0;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+.sidebar-links {
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0 0 8px;
+  }
+
+  a {
+    //color: #666;
+    text-decoration: none;
+    font-size: 0.9em;
+    line-height: 1.5;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.blog-left-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  max-height: 100vh;
+  background-color: $left-sidebar-background;
+  border-right: 1px solid #e0e0e0;
+  z-index: 9;
+  overflow-y: auto;
+  font-size: 0.95em;
+}
+
+.blog-left-sidebar-content {
+  padding: 20px;
+}
+
+.blog-recent-posts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.blog-recent-posts li {
+  margin: 0 0 10px;
+}
+
+.blog-recent-posts a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 0.9em;
+  line-height: 1.45;
+}
+
+.blog-recent-posts a:hover {
+  text-decoration: underline;
+}
+
+.blog-recent-post-date {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.78em;
+  line-height: 1.3;
+}
+
+.blog-left-sidebar .sidebar-content {
+  color: $left-sidebar-body-color;
+}
+
+.blog-left-sidebar .blog-recent-post-date {
+  color: $left-sidebar-body-color;
+}
+
+.blog-left-sidebar .sidebar-content h3 {
+  color: $left-sidebar-heading-color;
+}
+
+.blog-left-sidebar .sidebar-content a,
+.blog-left-sidebar .sidebar-links a,
+.blog-left-sidebar .blog-recent-posts a {
+  color: $left-sidebar-link-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.blog-left-sidebar .sidebar-content a:hover,
+.blog-left-sidebar .sidebar-links a:hover,
+.blog-left-sidebar .blog-recent-posts a:hover {
+  color: $left-sidebar-link-hover-color;
+}
+
+.site-sidebar .sidebar-content {
+  color: $right-sidebar-body-color;
+}
+
+.site-sidebar .blog-recent-post-date {
+  color: $right-sidebar-body-color;
+}
+
+.site-sidebar .sidebar-content h3 {
+  color: $right-sidebar-heading-color;
+}
+
+.site-sidebar .sidebar-content a,
+.site-sidebar .sidebar-links a,
+.site-sidebar .blog-recent-posts a {
+  color: $right-sidebar-link-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.site-sidebar .sidebar-content a:hover,
+.site-sidebar .sidebar-links a:hover,
+.site-sidebar .blog-recent-posts a:hover {
+  color: $right-sidebar-link-hover-color;
+}
+
+// Adjust main body to not be hidden behind sidebars
+body {
+  margin-right: 250px;
+  margin-left: 300px;
+}
+
+@media screen and (max-width: 900px) {
+  .blog-left-sidebar {
+    display: none;
+  }
+
+  body {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+

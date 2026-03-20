@@ -1,0 +1,20 @@
+<aside class="blog-left-sidebar" aria-label="Recent posts">
+  <div class="sidebar-content blog-left-sidebar-content">
+    <h3>Recent Podcasts &amp; Webinars</h3>
+    <ul>
+        <li><a href="https://youtu.be/pSfwT-lND4Y">Why Structured Reporting Is the Future of Pathology</a> — <i>Digital Pathology Place</i> with Dr. Aleks Zuraw</li>
+        <li><a href="https://youtu.be/0n0h3YlWKRg">Harnessing the Power of Structured Data in Pathology</a> — <i>People of Pathology Podcast</i> with Dennis Strenk</li>
+        <li><a href="https://youtu.be/4TOmpBvcDhk">Standardized Structured Reporting in Pathology: Paving the Way for Advanced Healthcare Analytics</a> — CAP Webinar</li>
+    </ul>
+    <h3>Recent Posts</h3>
+    <ul class="blog-recent-posts">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {% for post in site.posts limit: 8 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <span class="blog-recent-post-date">{{ post.date | date: date_format }}</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</aside>
