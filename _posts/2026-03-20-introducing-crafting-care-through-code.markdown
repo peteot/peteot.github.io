@@ -6,7 +6,7 @@ categories: introduction healthcare-software
 ---
 Welcome. I know, I know... starting a new blog -- and a _static html site_ at that -- is so 2010.
 
-However, I have stuff to say, and I like (miss) making websites and web content, and why should LinkedIn's domain accure all the value from the wonderful notes I write?
+However, I have stuff to say, and I like (miss) making websites and web content, and why should LinkedIn's domain accrue all the value from the wonderful notes I write?
 
 I write about the day-to-day realities of turning standards, workflows, and user feedback into tools clinicians can rely on. The focus is usually on the point where good code meets real clinical practice. 
 
