@@ -18,13 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Health Software Thoughts
+title: Crafting Care Through Code
+subtitle: "Field notes on healthcare software, clinical reality, and what  works"
 author: Peter O'Toole
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Software Architect / 
-  mTuitive President / 
-  Opinions Are Mine.
+  Software Architect. 
+  mTuitive President. 
+  Opinions are mine.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://peteotb.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: peteot

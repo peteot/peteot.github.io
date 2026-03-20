@@ -66,9 +66,36 @@ $right-sidebar-link-color: #CDB8FF;
 $right-sidebar-link-hover-color: #FFFFFF;
 
 .site-header  {
+    position: relative;
+    z-index: 30;
+    background-color: $background-color;
     border-top-color: $site-title-color;
 }
+
+.site-nav {
+  position: relative;
+  z-index: 31;
+}
+
+.site-nav .trigger {
+  position: relative;
+  z-index: 32;
+}
+
+.site-branding {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 56px;
+  padding: 6px 0;
+}
+
 .site-title {
+  float: none;
+  display: block;
+  line-height: 1.15;
+  margin-bottom: 2px;
   color: $site-title-color;
   font-weight: 800;
 
@@ -76,6 +103,93 @@ $right-sidebar-link-hover-color: #FFFFFF;
   &:hover {
     color: $site-title-color;
   }
+}
+
+.site-subtitle {
+  margin: 0;
+  color: darken($site-title-color, 8%);
+  font-size: 0.76rem;
+  line-height: 1.25;
+  max-width: 460px;
+}
+
+.responsive-nav-link {
+  display: none;
+}
+
+.about-page-panel {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: $right-sidebar-background;
+  border: 1px solid #e0e0e0;
+  color: $right-sidebar-body-color;
+  font-size: 0.95em;
+}
+
+.about-page-panel .sidebar-profile-image {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.about-page-panel .sidebar-content {
+  color: $right-sidebar-body-color;
+}
+
+.about-page-panel .sidebar-content h1,
+.about-page-panel .sidebar-content h2,
+.about-page-panel .sidebar-content h3,
+.about-page-panel .sidebar-content h4 {
+  color: $right-sidebar-heading-color;
+}
+
+.about-page-panel .sidebar-content a {
+  color: $right-sidebar-link-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.about-page-panel .sidebar-content a:hover {
+  color: $right-sidebar-link-hover-color;
+}
+
+.blog-page-panel {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: $left-sidebar-background;
+  border: 1px solid #e0e0e0;
+  color: $left-sidebar-body-color;
+  font-size: 0.95em;
+}
+
+.blog-page-panel .sidebar-content {
+  color: $left-sidebar-body-color;
+}
+
+.blog-page-panel .sidebar-content h1,
+.blog-page-panel .sidebar-content h2,
+.blog-page-panel .sidebar-content h3,
+.blog-page-panel .sidebar-content h4 {
+  color: $left-sidebar-heading-color;
+}
+
+.blog-page-panel .sidebar-content a,
+.blog-page-panel .blog-recent-posts a {
+  color: $left-sidebar-link-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.blog-page-panel .sidebar-content a:hover,
+.blog-page-panel .blog-recent-posts a:hover {
+  color: $left-sidebar-link-hover-color;
+}
+
+.blog-page-panel .blog-recent-post-date {
+  color: $left-sidebar-body-color;
 }
 
 // Sidebar styling
@@ -164,6 +278,47 @@ $right-sidebar-link-hover-color: #FFFFFF;
   padding: 20px;
 }
 
+.podcast-sticky-note {
+  position: relative;
+  margin: 4px 0 22px;
+  padding: 16px 14px 12px;
+  background: #fff3a8;
+  border: 1px solid rgba(80, 70, 20, 0.2);
+  box-shadow: 0 8px 20px rgba(20, 20, 20, 0.18);
+  transform: rotate(-1deg);
+}
+
+.podcast-sticky-note::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 92px;
+  height: 18px;
+  transform: translateX(-50%) rotate(-3deg);
+  background: rgba(253, 249, 236, 0.72);
+  border: 1px solid rgba(120, 110, 80, 0.18);
+  box-shadow: 0 1px 1px rgba(40, 40, 40, 0.15);
+}
+
+.podcast-sticky-note h3 {
+  margin-bottom: 10px;
+}
+
+.podcast-sticky-note ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.podcast-sticky-note li {
+  margin-bottom: 10px;
+  line-height: 1.35;
+}
+
+.podcast-sticky-note li:last-child {
+  margin-bottom: 0;
+}
+
 .blog-recent-posts {
   margin: 0;
   padding: 0;
@@ -248,7 +403,7 @@ $right-sidebar-link-hover-color: #FFFFFF;
 
 // Adjust main body to not be hidden behind sidebars
 body {
-  margin-right: 250px;
+  margin-right: 300px;
   margin-left: 300px;
 }
 
@@ -258,8 +413,38 @@ body {
   }
 
   body {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .site-sidebar {
+    display: none;
+  }
+
+  body {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: $on-palm) {
+  .site-branding {
+    min-height: auto;
+    max-width: calc(100% - 72px);
+    padding: 8px 0;
+  }
+
+  .site-subtitle {
+    font-size: 0.7rem;
+    max-width: 100%;
+  }
+
+  .responsive-nav-link-blog {
+    display: inline-block;
+  }
+
+  .responsive-nav-link-about {
+    display: inline-block;
   }
 }
 

@@ -3,7 +3,12 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div class="site-branding">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      {%- if site.subtitle -%}
+      <p class="site-subtitle">{{ site.subtitle | escape }}</p>
+      {%- endif -%}
+    </div>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -23,6 +28,8 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          <a class="page-link responsive-nav-link responsive-nav-link-blog" href="{{ '/blog/' | relative_url }}">Blog</a>
+          <a class="page-link responsive-nav-link responsive-nav-link-about" href="{{ '/about/' | relative_url }}">About</a>
         </div>
       </nav>
     {%- endif -%}
